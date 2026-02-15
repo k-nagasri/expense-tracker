@@ -1,0 +1,86 @@
+.transactions-count {
+  margin-bottom: 8px;
+  color: rgb(80, 79, 79) !important;
+  border: rgba(128, 128, 128, 0.553) 1px solid;
+  border-radius: 10px;
+  padding: 8px 12px;
+  box-shadow: 0 0 1px gray;
+}
+
+.analytics h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(80, 79, 79) !important;
+}
+
+.analytics h5 {
+  font-size: 12px;
+  color: rgb(80, 79, 79) !important;
+}
+
+.category-card {
+  margin-top: 5px;
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: rgba(128, 128, 128, 0.491) 1px solid;
+  box-shadow: 0 0 2px gray;
+}
+
+.row p {
+  font-size: 15px;
+  color: rgb(80, 79, 79) !important;
+}
+
+.ant-progress-indicator {
+  color: rgb(80, 79, 79) !important;
+  font-size: 13px !important;
+}
+
+.progress-bars .ant-progress-indicator {
+  font-size: 22px !important;
+  font-weight: 350 !important;
+  font-style: initial;
+  color: rgb(80, 79, 79) !important;
+  /* align-self: center; */
+}
+
+@media screen and (max-width: 768px) {
+  .analytics .row {
+    gap: 15px;
+  }
+
+  .analytics .col-md-4 {
+    margin-bottom: 15px;
+  }
+
+  .transactions-count {
+    padding: 12px 10px;
+  }
+
+  .analytics h4 {
+    font-size: 18px;
+  }
+  .analytics h5 {
+    font-size: 14px;
+  }
+
+  .ant-progress-circle {
+    width: 120px !important;
+    height: 120px !important;
+  }
+
+  .ant-progress-indicator {
+    font-size: 22px !important;
+    font-weight: 450 !important;
+    align-self: center;
+  }
+
+  .leftCircle {
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+  .rightCircle {
+    margin-left: 15px;
+  }
+}

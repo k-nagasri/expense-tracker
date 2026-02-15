@@ -1,0 +1,131 @@
+.register {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #30cfd0, #330867);
+}
+
+.container {
+  width: 100%;
+}
+
+.auth-form {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  padding: 45px 35px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+.register h1 {
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.849);
+  margin-bottom: 10px;
+}
+
+.register hr {
+  border-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 25px;
+}
+
+.register input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: white;
+  font-size: 14px;
+}
+
+.register input:focus {
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.651);
+}
+
+.ant-form-item {
+  margin-bottom: 25px;
+}
+
+.ant-form-item-label > label {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-weight: 500;
+}
+
+.register .d-flex {
+  margin-top: 30px;
+}
+
+.register a {
+  color: #e0e7ff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
+
+.primary {
+  background: white;
+  color: #330867;
+  padding: 8px 22px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.primary:hover {
+  background: #f3f4f6;
+  transform: translateY(-2px);
+}
+
+.lottie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lottie dotlottie-wc {
+  max-width: 420px;
+  width: 100%;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding-right: 40px; /* space for icon */
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.toggle-password:hover {
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .lottie {
+    display: none;
+  }
+
+  .auth-form {
+    width: 100%;
+  }
+}

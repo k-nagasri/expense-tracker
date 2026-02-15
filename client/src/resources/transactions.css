@@ -1,0 +1,123 @@
+.filter {
+  box-shadow: 0 0 2px gray;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.transaction-form .ant-form-item-label > label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.626) !important;
+}
+
+.primary {
+  background-color: rgb(12, 12, 62) !important;
+  color: #ffffff !important;
+  border: none;
+  padding: 8px 15px !important;
+  border-radius: 999px; /* pill shape */
+  font-size: 12px !important;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 6px 16px rgba(79, 70, 229, 0.25) !important;
+}
+
+.table-analytics {
+  background: #ffffff;
+  margin-top: 6px;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+/* Header */
+.transactions-table .ant-table-thead > tr > th {
+  background-color: #f8fafc;
+  color: #0f172a !important;
+  font-weight: 600;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Rows */
+.transactions-table .ant-table-tbody > tr > td {
+  padding: 14px 16px;
+  font-size: 14px;
+  color: #334155;
+}
+
+/* Hover effect */
+.transactions-table .ant-table-tbody > tr:hover > td {
+  background-color: #f1f5f9;
+}
+
+/* Remove default borders */
+.transactions-table .ant-table-container table > thead > tr > th,
+.transactions-table .ant-table-container table > tbody > tr > td {
+  border: none;
+}
+
+/* Pagination */
+.transactions-table .ant-pagination-item-active {
+  border-color: #1e3a8a;
+}
+
+.transactions-table .ant-pagination-item-active a {
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+.view-switch {
+  border: gray 1px solid;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.icon-style {
+  font-size: 22px;
+  color: #0f172a;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon-style:hover {
+  color: rgb(22, 64, 180);
+  transform: scale(1.1);
+}
+
+.active-icon {
+  color: rgb(22, 119, 180) !important;
+}
+
+.inactive-icon {
+  color: #0f172a !important;
+}
+
+@media screen and (max-width: 600px) {
+  .filter {
+    /* padding: 10px; */
+    overflow-x: scroll;
+  }
+
+  .transaction-form .ant-form-item {
+    /* padding: 10px; */
+    overflow-x: scroll;
+  }
+
+  /* .primary {
+    padding: 6px 12px !important;
+    font-size: 11px;
+  }
+
+  .table-analytics {
+    padding: 8px;
+  }
+
+  .transactions-table .ant-table-thead > tr > th,
+  .transactions-table .ant-table-tbody > tr > td {
+    padding: 10px;
+    font-size: 13px;
+  } */
+}
